@@ -22,5 +22,12 @@ language and use it for the blockchain development in the future
 
 ### Whats different and important features about RUST
 
-1. Rust doesnt have garbage collector : A garbage collector is a system that automatically frees the unused memory in a program
-2.
+1. Rust doesn't have garbage collector : A garbage collector is a system that automatically frees the unused memory in a program
+   1. Some languages have garbage collector
+   2. some languages ( C ) make you handle the memory
+      1. Rust is different from both of them = It checks and when needed it removes something from the memory , we can still handle the memory by ourselves but its more efficient
+2. Rust Compiler is different
+
+### Learning the first program in RUST
+
+1. It creates the executable file , where we can run that file in the operating systems . which means we don't need rust to run the rust programs
