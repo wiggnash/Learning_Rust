@@ -1,6 +1,7 @@
 # Hello world using CARGO
 
-Cargo is Rust’s build system and package manager. Most Rustaceans use this tool to manage their Rust projects because Cargo handles a lot of tasks for you, such as building your code, downloading the libraries your code depends on, and building those libraries. (We call the libraries that your code needs dependencies.)
+1. Cargo is Rust’s build system and package manager.
+2. Most Rustaceans use this tool to manage their Rust projects because Cargo handles a lot of tasks for you, such as building your code, downloading the libraries your code depends on, and building those libraries. (We call the libraries that your code needs dependencies.)
 
 Having few files works fine for the small projects , but in the real world projects where they will be a lot of files with dependencies
 where we need something to handle that.
