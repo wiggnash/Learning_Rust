@@ -48,9 +48,41 @@ fn main() {
 
     // ===========================================
 
-    let mut x = 5;
-    println!("The value of X is {}", x);
+    // let mut x = 5;
+    // println!("The value of X is {}", x);
 
-    x = "Hello World";
-    println!("The value of X is {}", x);
+    // x = "Hello World";
+    // println!("The value of X is {}", x);
+
+    // =========== CONSTANTS ==================
+
+    // =============== UNIT TYPE =============
+
+    let x: () = ();
+    println!("{:?}", x);
+
+    integer_func();
+    floating_func();
+    typecasting_func();
+}
+
+// ============= Integer function ============
+fn integer_func() {
+    let x: i8 = 5;
+    println!("{:?}", x);
+}
+
+// ========== floating function =============
+fn floating_func() {
+    let x: f32 = 255.0;
+    // let y: u32 = x - 5; // we cant do this because we cant take in the integer value and subtract from the floating point value
+    println!("The value of x is : {}", x);
+}
+
+fn typecasting_func() {
+    let x: f32 = 255.0;
+    let y: u32 = x as u32 - 5;
+
+    println!("{:?}", x);
+    println!("{:?}", y);
 }
